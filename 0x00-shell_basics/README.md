@@ -1,1 +1,2 @@
-My file commit message
+#!/bin/bash
+pwd
