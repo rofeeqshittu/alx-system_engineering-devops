@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 656 0x01-shell_permissions
+chmod 765 0x01-shell_permissions
