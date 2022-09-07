@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -- | cu -f 1
+paste -- | cut -f1
