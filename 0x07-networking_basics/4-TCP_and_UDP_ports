@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Use netstat to get information about network connections
+netstat -atlpn | awk '/LISTEN/ {split($4, ip_port, ":") print ip_port[2], $7, $6}'
+
+# Explanation of the commands:
+#  - netstat -atlpn:
+#     - a: Show all sockets (listening or not)
+#     - t: Show TCP connections only
+#     - l: Show listening sockets only
+#     - p: Show the program name (PID) and process ID
+#  - awk '/LISTEN/ {split($4, ip_port, ":")  print ip_port[2], $7, $6}':
+#     - /LISTEN/: Filter lines that contain "LISTEN" (listening sockets)
+#     - split($4, ip_port, ":"): Split the 4th field (local address:port) by ":" delimiter
+#     - print ip_port[2], $7, $6: Print the port number (ip_port[2]), program name ($7), and PID ($6)
