@@ -5,10 +5,5 @@ if [ $# -ne 1 ]; then
 	exit 1
 fi
 
-# Define the IP address from the argument
-ip_address=$1
-
 # Ping the IP address 5 times
-ping_output=$(ping -c 5 "$ip_address")
-
-echo "$ping_output"
+ping -c 5 "$1"
