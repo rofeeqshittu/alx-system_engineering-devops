@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Use netstat to get information about network connections
 netstat -atlpn | awk '/LISTEN/ {split($4, ip_port, ":") print ip_port[2], $7, $6}'
 
