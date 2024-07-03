@@ -1,0 +1,6 @@
+Host your-server-alias
+    HostName 34.203.77.175
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+
