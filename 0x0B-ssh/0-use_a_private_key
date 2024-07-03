@@ -1,5 +1,5 @@
 #!/bin/bash
 # Connects to server with key in ~/.ssh/school
 
-SERVER_ADDRESS="8.8.8.8"
+SERVER_ADDRESS=34.203.77.175
 ssh -i ~/.ssh/school ubuntu@$SERVER_ADDRESS
