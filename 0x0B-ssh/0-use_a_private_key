@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Connects to server with key in ~/.ssh/school
 
 SERVER_ADDRESS=34.203.77.175
