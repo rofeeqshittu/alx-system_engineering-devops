@@ -41,10 +41,11 @@ that the request is distributed via a load balancer
 that the web server answers the request by serving a web page
 that the application server generates the web page
 that the application server request data from the database
-Gliffy is free and what I personally use, but feel free to use what fits you best.
+[Gliffy](https://www.gliffy.com/) is free and what I personally use, but feel free to use what fits you best.
 
 Some unrelated examples:
-[Unrelated Example picture](R8R3sqC.png)
+![Unrelated Example picture](R8R3sqC.png)
+![another one](i9ivkdo.png)
 
 ---
 2. `Contribute`
