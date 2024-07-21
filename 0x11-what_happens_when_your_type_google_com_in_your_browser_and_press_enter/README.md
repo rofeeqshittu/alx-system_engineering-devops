@@ -43,6 +43,9 @@ that the application server generates the web page
 that the application server request data from the database
 Gliffy is free and what I personally use, but feel free to use what fits you best.
 
+Some unrelated examples:
+[Unrelated Example picture](R8R3sqC.png)
+
 ---
 2. `Contribute`
 
