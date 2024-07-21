@@ -44,8 +44,8 @@ that the application server request data from the database
 [Gliffy](https://www.gliffy.com/) is free and what I personally use, but feel free to use what fits you best.
 
 Some unrelated examples:
-![Unrelated Example picture](R8R3sqC.png)
 ![another one](i9ivkdo.png)
+![Unrelated Example picture](R8R3sqC.png)
 
 ---
 2. `Contribute`
