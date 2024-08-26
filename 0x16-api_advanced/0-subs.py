@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Contains number_of_subscribers module"""
 import requests
 
 def number_of_subscribers(subreddit):
