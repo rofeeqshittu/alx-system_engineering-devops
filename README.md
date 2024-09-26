@@ -20,7 +20,7 @@ This repository contains a collection of projects and exercises completed during
 | [`0x0C-web_server`](0x0C-web_server)                                         | Setting up and managing a web server (Nginx).           |
 | [`0x0D-web_stack_debugging_0`](0x0D-web_stack_debugging_0)                  | Debugging web stack issues.                              |
 | [`0x0E-web_stack_debugging_1`](0x0E-web_stack_debugging_1)                  | Further debugging and troubleshooting techniques.        |
-| [`0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter`](0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) | Exploring how web requests work. |
+| [`0x11-what_happens_when_you_type..`](0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) | Exploring how web requests work. |
 | [`0x15-api`](0x15-api)                                                       | Introduction to APIs and their usage.                   |
 | [`0x16-api_advanced`](0x16-api_advanced)                                     | Advanced API concepts and implementations.               |
 | [`command_line_for_the_win`](command_line_for_the_win)                       | Practical command line tools and techniques.             |
