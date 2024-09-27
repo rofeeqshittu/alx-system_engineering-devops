@@ -14,9 +14,9 @@ service { 'apache2':
 
 # Ensure the WordPress directory is owned by the right user
 file { '/var/www/html':
-  owner  => 'www-data',
-  group  => 'www-data',
-  mode   => '0755',
+  owner   => 'www-data',
+  group   => 'www-data',
+  mode    => '0755',
   require => Service['apache2'],
 }
 
