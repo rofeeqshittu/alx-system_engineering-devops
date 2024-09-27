@@ -43,7 +43,7 @@ root@ubuntu:~# ./0-iamsomeoneelse www-data
 www-data
 root@ubuntu:~# whoami
 root
-
+```
 ---
 
 ### 1. Run Nginx as Nginx
@@ -61,4 +61,5 @@ nginx      884  0.0  0.0  77360  2744 ?        Ss   19:16   0:00 nginx: master p
 nginx      885  0.0  0.0  77712  2772 ?        S    19:16   0:00  \_ nginx: worker process
 root@ubuntu:~# nc -z 0 8080 ; echo $?
 0
+```
 
