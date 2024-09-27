@@ -2,10 +2,10 @@
 # Puppet manifest to fix WordPress directory permissions
 
 file { '/var/www/html/your_wordpress_directory':
-  ensure => directory,
-  owner  => 'www-data',
-  group  => 'www-data',
-  mode   => '0755',
+  ensure  => directory,
+  owner   => 'www-data',
+  group   => 'www-data',
+  mode    => '0755',
   recurse => true,
 }
 
