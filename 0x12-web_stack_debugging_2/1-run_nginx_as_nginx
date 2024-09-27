@@ -18,5 +18,5 @@ echo "server {
 service nginx restart
 
 # Step 5: Check if Nginx is running as the nginx user
-ps aux | grep ngin[x]
+pgrep -u nginx
 
