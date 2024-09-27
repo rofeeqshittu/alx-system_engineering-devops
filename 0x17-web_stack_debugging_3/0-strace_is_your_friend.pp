@@ -20,8 +20,8 @@ notify { 'Restart Apache':
 
 # Ensure Apache restarts if the fix command executes successfully
 exec { 'Restart Apache':
-  command => '/bin/systemctl restart apache2',
-  subscribe => Exec['Fix wordpress site'],
+  command     => '/bin/systemctl restart apache2',
+  subscribe   => Exec['Fix wordpress site'],
   refreshonly => true,
 }
 
