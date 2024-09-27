@@ -1,4 +1,6 @@
-# 0x12. Web Stack Debugging #2
+# 0x12. Web Stack Debugging #2  
+
+![Bugs image](bugs.jpg)
 
 ## Overview
 This project is part of the **ALX Software Engineering** program. It focuses on debugging common web stack issues, particularly user permissions and Nginx configuration. The goal is to understand the infrastructure behind web servers, learn secure configurations, and apply debugging techniques for troubleshooting web servers.
